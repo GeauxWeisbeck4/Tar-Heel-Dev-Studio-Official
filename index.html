@@ -1,101 +1,372 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-  <head>
-    <!--
-      This is the page head - it contains info the browser uses to display the page
-      You won't see what's in the head in the page
-      Scroll down to the body element for the page content
-    -->
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport"
+		  content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="icon" href="https://glitch.com/favicon.ico" />
+	<link rel="stylesheet" href="style.css">
+	<link href="assets/css/main.css" rel="stylesheet">
+	<link rel="shortcut icon" type="image/png" href="assets/img/tarheeldevlogo.png">
+	<title>Tar Heel Dev Studio</title>
+</head>
+<header class="header">
+	<nav class="nav noise">
+		<div class="nav__logo-box">
+			<a href="/index.html"><img src="https://cdn.glitch.global/2e8d59f4-69f1-4a29-907e-a34a7c19bee4/tarheeldevlogo.png?v=1653972638515" alt="logo" class="nav__logo"/></a>
+		</div>
 
-    <!-- 
-      This is an HTML comment
-      You can write text in a comment and the content won't be visible in the page
-    -->
+		<ul class="nav__list">
+			<li class="nav__item"><a class="hover-shadow-box-animation" href="services.html">Services</a></li>
+			<li class="nav__item"><a class="hover-shadow-box-animation" href="about.html">About</a></li>
+			<li class="nav__item"><a class="hover-shadow-box-animation" href="portfolio.html">Portfolio</a></li>
+			<li class="nav__item"><a class="hover-shadow-box-animation" href="/blog">Blog</a></li>
+			<li class="nav__item"><a class="hover-shadow-box-animation" href="/contact">Contact</a></li>
+		</ul>
+	</nav>
 
-    <title>Hello World!</title>
 
-    <!-- Meta tags for SEO and social sharing -->
-    <link rel="canonical" href="https://glitch-hello-website.glitch.me/" />
-    <meta
-      name="description"
-      content="A simple website, built with Glitch. Remix it to get your own."
-    />
-    <meta name="robots" content="index,follow" />
-    <meta property="og:title" content="Hello World!" />
-    <meta property="og:type" content="article" />
-    <meta property="og:url" content="https://glitch-hello-website.glitch.me/" />
-    <meta
-      property="og:description"
-      content="A simple website, built with Glitch. Remix it to get your own."
-    />
-    <meta
-      property="og:image"
-      content="https://cdn.glitch.com/605e2a51-d45f-4d87-a285-9410ad350515%2Fhello-website-social.png?v=1616712748147"
-    />
-    <meta name="twitter:card" content="summary" />
+	<div class="hero-container">
+		<div class="text-box">
+			<h1 class="heading-primary">
+				<span class="heading-primary--main">Tar Heel Dev Studio</span>
+				<span class="heading-primary--sub">Engineering rich user experiences that help your business succeed with
+				full stack development, innovation, and creative marketing</span>
+			</h1>
 
-    <!-- Import the webpage's stylesheet -->
-    <link rel="stylesheet" href="/style.css" />
+			<a href="/contact" class="btn btn--white btn--animated">Get Your Free Website Audit!</a>
+		</div>
+	</div>
+</header>
 
-    <!-- Import the webpage's javascript file -->
-    <script src="/script.js" defer></script>
-  </head>
-  <body>
-    <!--
-      This is the body of the page
-      Look at the elements and see how they appear in the rendered page on the right
-      Each element is defined using tags, with < and > indicating where each one opens and closes
-      There are elements for sections of the page, images, text, and more
-      The elements include attributes referenced in the CSS for the page style
-    -->
+<main class="hero-pattern">
+	<section class="section-about">
+		<div class="u-center-text u-margin-bottom-big">
+			<h2 class="heading-secondary">About Tar Heel Dev Studio</h2>
+		</div>
 
-    <!-- The wrapper and content divs set margins and positioning -->
-    <div class="wrapper">
-      <div class="content" role="main">
-        <!-- This is the start of content for our page -->
-        <h1 class="title">Hello World!</h1>
+		<div class="row">
+			<div class="col-1-of-2">
+				<h3 class="heading-tertiary u-margin-bottom-small">Authenticity and a relentless work ethic you
+					won't find anywhere else</h3>
+				<p class="paragraph">We aren't the biggest or most talked about website development agency in the
+					Raleigh-Durham-Chapel Hill area, but we prefer it that way. Our customer-centered innovation
+					approach to full-stack development requires empathy, creativity, and working closely with your
+					business to create high-quality and responsive websites and apps.</p>
 
-        <img
-          src="https://cdn.glitch.com/a9975ea6-8949-4bab-addb-8a95021dc2da%2Fillustration.svg?v=1618177344016"
-          class="illustration"
-          alt="Editor illustration"
-          title="Click the image!"
-        />
-        <!-- Instructions on using this project -->
-        <div class="instructions">
-          <h2>
-            Using this project
-          </h2>
-          <p>
-            This is the Glitch <strong>Hello Website</strong> project. You can
-            use it to build your own site. Check out README.md in the editor for
-            more info and next steps you can take!
-          </p>
-          <!-- ADD BUTTON HERE -->
-          
-          <!-- Once you've added the button from the readme, click it in the page -->
-          <!-- Check out the function in script.js to see how it works -->
-        </div>
-      </div>
-    </div>
-    <!-- The footer holds our remix button — you can use it for structure or cut it out ✂ -->
-    <footer class="footer">
-      <div class="links"></div>
-      <a
-        class="btn--remix"
-        target="_top"
-        href="https://glitch.com/edit/#!/remix/glitch-hello-website"
-      >
-        <img
-          src="https://cdn.glitch.com/605e2a51-d45f-4d87-a285-9410ad350515%2FLogo_Color.svg?v=1618199565140"
-          alt=""
-        />
-        Remix on Glitch
-      </a>
-    </footer>
-  </body>
+				<h3 class="heading-tertiary u-margin-bottom-small">We leverage the best tech stacks and business
+					frameworks to design experiences that customers can't resist</h3>
+				<p class="paragraph">Research and development are core activities that drive the success of our
+					business. Our ability to utilize the best open-source solutions to meet your business needs depends
+					on a passion for creating full-stack solutions that deliver rich experiences and happy clients.</p>
+
+				<a href="#" class="btn-text">Learn more &rarr;</a>
+			</div>
+			<div class="col-1-of-2">
+				<div class="composition">
+					<img src="assets/img/aboutmepic.png" alt="about me"
+						 class="composition__photo composition__photo--p1">
+					<img src="assets/img/fountainunc.jpg" alt="unc fountain" class="composition__photo composition__photo--p2">
+					<img src="assets/img/webdevelopment.jpg" alt="web development"
+						 class="composition__photo composition__photo--p3">
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="section-features">
+		<div class="u-center-text u-margin-bottom-big">
+			<h1 class="heading-primary">Full Stack Development, Marketing, and Design Services</h1>
+		</div>
+		<div class="row">
+			<div class="col-1-of-4">
+				<div class="feature-box">
+					<img src="assets/img/csspic.svg" class="feature-box__img">
+					<h3 class="heading-tertiary u-margin-bottom-small">Design Services</h3>
+					<p class="feature-box__text">
+						We have many tiers of website design solutions. If we don't have a solution you
+						like, just ask! Try pairing with marketing or app development to get the best user experience.
+						We also can do much more than just build a website - we custom build design systems, SEO
+						content, e-books, and much more. Check out the resources and services page for more
+						information.
+					</p>
+				</div>
+			</div>
+			<div class="col-1-of-4">
+				<div class="feature-box">
+					<img src="assets/img/devenv.svg" alt="development environment" class="feature-box__img">
+					<h3 class="heading-tertiary u-margin-bottom-small">Development Services</h3>
+					<p class="feature-box__text">
+						Need more functionality than just a webpage that renders information? The next step
+						in the process after we design the site is to develop your app. You can find more about our
+						whole process under our resources, but we can build any kind of full stack application as
+						long as requirements are provided!
+					</p>
+				</div>
+			</div>
+
+			<div class="col-1-of-4">
+				<div class="feature-box">
+					<img src="assets/img/seo.svg" alt="seo marketing search" class="feature-box__img">
+					<h3 class="heading-tertiary u-margin-bottom-small">Marketing & SEO</h3>
+					<p class="feature-box__text">
+						The power of hiring a Full Stack Developer isn't necessarily just based on the beauty of your
+						website or app, or how incredible the functionality is - it is the power to generate powerful
+						SEO and build it into your webpage! Our monthly plans all include a certain number of SEO
+						posts per month and also include a website build plus servicing - you really can't beat pass
+						up a deal that great!
+					</p>
+				</div>
+			</div>
+
+			<div class="col-1-of-4">
+				<div class="feature-box">
+					<img src="assets/img/3colsite.png" alt="three column website" class="feature-box__img">
+					<h3 class="heading-tertiary u-margin-bottom-small">Web 3.0</h3>
+					<p class="feature-box__text">
+						There is a technology revolution that will happen before you even realize what hit you.
+						Are you ready? Contact me for consulting and full stack solutions for creating a blockchain
+						and smart contract applications. Trust me, you don't want to miss out on the next version of
+						the internet!
+					</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="section-tours" id="section-tours">
+		<div class="u-center-text u-margin-bottom-big">
+			<h2 class="heading-secondary">We Offer Flexible Monthly Pricing Structures</h2>
+		</div>
+
+		<div class="row">
+			<div class="col-1-of-3">
+				<div class="card">
+					<div class="card__side card__side--front">
+						<div class="card__picture card__picture--1">
+							&nbsp;&nbsp;&nbsp;
+						</div>
+						<h4 class="card__heading">
+							<span class="card__heading-span card__heading-span--1">Professional Website Plan</span>
+						</h4>
+						<div class="card__details">
+							<ul>
+								<li>Professional Website W/ Blog, CMS</li>
+								<li>We create one page - you can add more!</li>
+								<li>SEO Marketing & Content</li>
+								<li>Website hosting free on Netlify or Render</li>
+							</ul>
+						</div>
+					</div>
+					<div class="card__side card__side--back card__side--back-1">
+						<div class="card__cta">
+							<div class="card__price-box">
+								<p class="card__price-only">Anywhere From</p>
+								<p class="card__price-value">$50-500</p>
+							</div>
+							<a href="#popup" class="btn btn--white">Buy Now!</a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+
+			<div class="col-1-of-3">
+				<div class="card">
+					<div class="card__side card__side--front">
+						<div class="card__picture card__picture--2">
+							&nbsp;
+						</div>
+						<h4 class="card__heading">
+							<span class="card__heading-span card__heading-span--3">Agency & eCommerce</span>
+						</h4>
+						<div class="card__details">
+							<ul>
+								<li>8-12 Pages</li>
+								<li>Monthly Marketing & SEO</li>
+								<li>eCommerce, Work Portfolio, Subscription</li>
+								<li>Add functionality, CMS, API</li>
+								<li>Shopify Expert</li>
+							</ul>
+						</div>
+
+					</div>
+					<div class="card__side card__side--back card__side--back-2">
+						<div class="card__cta">
+							<div class="card__price-box">
+								<p class="card__price-only">Usually Ranges</p>
+								<p class="card__price-value">$650-$1500</p>
+							</div>
+							<a href="#popup" class="btn btn--white">Boost Your Business!</a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+
+			<div class="col-1-of-3">
+				<div class="card">
+					<div class="card__side card__side--front">
+						<div class="card__picture card__picture--3">
+							&nbsp;
+						</div>
+						<h4 class="card__heading">
+							<span class="card__heading-span card__heading-span--3">Web 3.0 Apps & More</span>
+						</h4>
+						<div class="card__details">
+							<ul>
+								<li>We use Solidity, Hardhat, and Web SDKs to write awesome DApps</li>
+								<li>No limit to size of app</li>
+								<li>Mona Shaders, DApps, Near Protocol</li>
+								<li>Unlimited APIs</li>
+							</ul>
+						</div>
+
+					</div>
+					<div class="card__side card__side--back card__side--back-3">
+						<div class="card__cta">
+							<div class="card__price-box">
+								<p class="card__price-only">Going from</p>
+								<p class="card__price-value">$1,000-$5,000</p>
+							</div>
+							<a href="#popup" class="btn btn--white">Contact for more info!</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="u-center-text u-margin-top-huge">
+			<a href="#" class="btn btn--blue btn--animated">Build A Plan Around Your Budget!</a>
+		</div>
+	</section>
+
+
+
+		<section class="section-portfolio">
+		<div class="u-center-text u-margin-bottom-big">
+			<h1 class="heading-primary">
+				Check out some of our recent work:
+			</h1>
+		</div>
+
+		<div class="row">
+			<div class="portfolio">
+				<figure class="portfolio__shape">
+					<img src="assets/img/mtmanventures.png" alt="Person on a tour" class="portfolio__img">
+				</figure>
+				<div class="portfolio__text">
+					<h3 class="heading-tertiary u-margin-bottom-small">Mtman.ventures</h3>
+					<p>
+						Built a blog for an up and coming business. This was a pretty simple project that is going to be
+						moved to the Shopify Marketplace. The tech stack includes 11ty, Netlify, Netlify CMS, and
+						JavaScript.
+					</p>
+				</div>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="portfolio">
+				<figure class="portfolio__shape">
+					<img src="assets/img/geauxtarheel.png" alt="Person on a tour" class="portfolio__img">
+				</figure>
+				<div class="portfolio__text">
+					<h3 class="heading-tertiary u-margin-bottom-small">GeauxWeisbeck4.dev</h3>
+					<p>
+						This is a current portfolio for the owner of Tar Heel Dev Studios. While I am in the process of
+						updating it to reflect current work. This website was created with HTML, CSS, JavaScript, and
+						I used Netlify to host it
+					</p>
+
+					<a href="/portfolio" class="btn btn--white btn--animated">More Projects!</a>
+				</div>
+			</div>
+		</div>
+
+	</section>
+
+	<section class="section-book">
+		<div class="row">
+			<div class="book">
+				<div class="book__form">
+					<form action="#" class="form">
+						<div class="u-margin-bottom-medium">
+							<h2 class="heading-secondary">
+								Schedule Your Free Consultation
+							</h2>
+						</div>
+
+						<div class="form__group">
+							<input type="text" class="form__input" placeholder="Full name" id="name" required>
+							<label for="name" class="form__label">Full name</label>
+						</div>
+
+						<div class="form__group">
+							<input type="email" class="form__input" placeholder="Email address" id="email" required>
+							<label for="email" class="form__label">Email address</label>
+						</div>
+
+						<div class="form__group">
+							<input type="number" class="form__input" placeholder="Phone Number" id="number" required>
+							<label for="number" class="form__label">Phone Number</label>
+						</div>
+
+						<div class="form__group">
+							<input type="text" class="form__input" placeholder="Comments" id="text" required>
+							<label for="text" class="form__label">Comments</label>
+						</div>
+
+						<div class="form__group u-margin-bottom-medium">
+							<div class="form__radio-group">
+								<input type="radio" class="form__radio-input" id="small" name="size">
+								<label for="small" class="form__radio-label">
+									<span class="form__radio-button"></span>
+									Website help
+								</label>
+							</div>
+
+							<div class="form__radio-group">
+								<input type="radio" class="form__radio-input" id="large" name="size">
+								<label for="large" class="form__radio-label">
+									<span class="form__radio-button"></span>
+									Marketing help
+								</label>
+							</div>
+						</div>
+
+						<div class="form__group">
+							<button class="btn btn--blue btn--animated">Next step &rarr;</button>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</section>
+</main>
+<footer class="footer">
+	<div class="footer__logo-box">
+		<img src="assets/img/tarheeldevlogoALT.png" alt="Full logo" class="footer__logo">
+	</div>
+	<div class="row">
+		<div class="col-1-of-2">
+			<div class="footer__navigation">
+				<ul class="footer__list">
+					<li class="footer__item"><a href="#" class="footer__link">Contact us</a></li>
+					<li class="footer__item"><a href="#" class="footer__link">Services</a></li>
+					<li class="footer__item"><a href="#" class="footer__link">Privacy policy</a></li>
+					<li class="footer__item"><a href="#" class="footer__link">Terms</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="col-1-of-2">
+			<p class="footer__copyright">
+				Built by Andrew Weisbeck.<a href="#" class="footer__link"> Tar Heel Dev Studio</a> powered by <a href="#" class="footer__link">11ty</a>and part of<a href="#" class="footer__link"> Rad CyberTech</a>..
+
+			</p>
+		</div>
+	</div>
+</footer>
+
+</body>
 </html>
