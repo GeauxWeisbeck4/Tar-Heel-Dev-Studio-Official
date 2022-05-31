@@ -318,11 +318,11 @@ to this section's matching END comment to see page-specific styles.
       border-top-left-radius: 3px;
       border-top-right-radius: 3px; }
       .card__picture--1 {
-        background-image: linear-gradient(to right bottom, #08ea9b, #036539), url(https://cdn.glitch.global/2e8d59f4-69f1-4a29-907e-a34a7c19bee4/webdevelopment.jpg?v=1653972672843); }
+        background-image: linear-gradient(to right bottom, #08ea9b, #036539), url(https://cdn.glitch.global/2e8d59f4-69f1-4a29-907e-a34a7c19bee4/websitedesign.png?v=1653991056906); }
       .card__picture--2 {
         background-image: linear-gradient(to right bottom, rgba(31, 192, 255, 0.83), #072377), url(https://cdn.glitch.global/2e8d59f4-69f1-4a29-907e-a34a7c19bee4/ecommerce.png?v=1653988810474); }
       .card__picture--3 {
-        background-image: linear-gradient(to right bottom, #4fdbee, #04898d), url(../assets/img/webthreeo2.png); }
+        background-image: linear-gradient(to right bottom, #4fdbee, #04898d), url(https://cdn.glitch.global/2e8d59f4-69f1-4a29-907e-a34a7c19bee4/ecommerce.png?v=1653988810474); }
     .card__heading {
       font-size: 2.8rem;
       font-weight: 300;
